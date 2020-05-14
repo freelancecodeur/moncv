@@ -130,6 +130,7 @@ h4 {
 
 .elements-cv-box {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px ;
     width: 80%;
 }
@@ -161,7 +162,6 @@ h4 {
 
 .elements-cv-city {
     flex: 1 0 0;
-    background-color: lawngreen;
 
 }
 
@@ -231,6 +231,7 @@ font-family: 'Roboto bold', sans-serif ;
     }
 
 
+
 }
 
 
@@ -248,6 +249,14 @@ font-family: 'Roboto bold', sans-serif ;
 
     .page {
         order: 2;
+        width: 80%;
+    }
+
+    .elements-cv-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 30px ;
         width: 80%;
     }
 
