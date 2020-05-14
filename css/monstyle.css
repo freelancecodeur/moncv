@@ -230,6 +230,21 @@ font-family: 'Roboto bold', sans-serif ;
         width: 80%;
     }
 
+    .elements-cv {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 30px ;
+
+    }
+
+    .elements-cv-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 30px ;
+    }
+
 
 
 }
@@ -241,6 +256,7 @@ font-family: 'Roboto bold', sans-serif ;
     .container {
         display: flex;
         flex-direction: column-reverse;
+
     }
 
     .sidebar {
@@ -252,12 +268,19 @@ font-family: 'Roboto bold', sans-serif ;
         width: 80%;
     }
 
+    .elements-cv {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 30px ;
+
+    }
+
     .elements-cv-box {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         margin-top: 30px ;
-        width: 80%;
     }
 
 }
