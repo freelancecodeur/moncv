@@ -251,7 +251,7 @@ font-family: 'Roboto bold', sans-serif ;
 
 
 
-@media screen and (min-width : 681px ) and (max-width : 1279px) {
+@media screen and (min-width : 681px ) and (max-width : 950px) {
 
     .container {
         display: flex;
